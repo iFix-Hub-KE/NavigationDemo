@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weeklyFragment">
+
+    <fragment
+        android:id="@+id/weeklyFragment"
+        android:name="com.kanyideveloper.navigationdemo.WeeklyFragment"
+        android:label="fragment_weekly"
+        tools:layout="@layout/fragment_weekly" />
+    <fragment
+        android:id="@+id/discoveryFragment"
+        android:name="com.kanyideveloper.navigationdemo.DiscoveryFragment"
+        android:label="fragment_discovery"
+        tools:layout="@layout/fragment_discovery" />
+    <fragment
+        android:id="@+id/magazineFragment"
+        android:name="com.kanyideveloper.navigationdemo.MagazineFragment"
+        android:label="fragment_magazine"
+        tools:layout="@layout/fragment_magazine" />
+    <fragment
+        android:id="@+id/myDIYFragment"
+        android:name="com.kanyideveloper.navigationdemo.MyDIYFragment"
+        android:label="fragment_my_d_i_y"
+        tools:layout="@layout/fragment_my_d_i_y" />
+    <fragment
+        android:id="@+id/myFontsFragment"
+        android:name="com.kanyideveloper.navigationdemo.MyFontsFragment"
+        android:label="fragment_my_fonts"
+        tools:layout="@layout/fragment_my_fonts" />
+    <fragment
+        android:id="@+id/myThemeFragment"
+        android:name="com.kanyideveloper.navigationdemo.MyThemeFragment"
+        android:label="fragment_my_theme"
+        tools:layout="@layout/fragment_my_theme" />
+    <fragment
+        android:id="@+id/myVideoShowFragment"
+        android:name="com.kanyideveloper.navigationdemo.MyVideoShowFragment"
+        android:label="fragment_my_video_show"
+        tools:layout="@layout/fragment_my_video_show" />
+    <fragment
+        android:id="@+id/myWallpaperFragment"
+        android:name="com.kanyideveloper.navigationdemo.MyWallpaperFragment"
+        android:label="fragment_my_wallpaper"
+        tools:layout="@layout/fragment_my_wallpaper" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.kanyideveloper.navigationdemo.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/shareFragment"
+        android:name="com.kanyideveloper.navigationdemo.ShareFragment"
+        android:label="fragment_share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/themeFragment"
+        android:name="com.kanyideveloper.navigationdemo.ThemeFragment"
+        android:label="fragment_theme"
+        tools:layout="@layout/fragment_theme" />
+    <fragment
+        android:id="@+id/wallpaperFragment"
+        android:name="com.kanyideveloper.navigationdemo.WallpaperFragment"
+        android:label="fragment_wallpaper"
+        tools:layout="@layout/fragment_wallpaper" />
+</navigation>
