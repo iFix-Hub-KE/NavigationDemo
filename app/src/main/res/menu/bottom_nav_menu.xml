@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/weekly"
+    <item android:id="@+id/weeklyFragment"
         android:icon="@drawable/ic_weekly"
         android:title="Weekly" />
-    <item android:id="@+id/wallpaper"
+    <item android:id="@+id/wallpaperFragment"
         android:icon="@drawable/ic_wallpaper"
         android:title="Wallpaper"/>
-    <item android:id="@+id/theme"
+    <item android:id="@+id/themeFragment"
         android:icon="@drawable/ic_theme"
         android:title="Theme" />
-    <item android:id="@+id/discovery"
+    <item android:id="@+id/discoveryFragment"
         android:icon="@drawable/ic_discovery"
         android:title="Discovery" />
 </menu>

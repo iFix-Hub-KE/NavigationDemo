@@ -8,37 +8,37 @@
     <fragment
         android:id="@+id/weeklyFragment"
         android:name="com.kanyideveloper.navigationdemo.WeeklyFragment"
-        android:label="fragment_weekly"
+        android:label="Weekly"
         tools:layout="@layout/fragment_weekly" />
     <fragment
         android:id="@+id/discoveryFragment"
         android:name="com.kanyideveloper.navigationdemo.DiscoveryFragment"
-        android:label="fragment_discovery"
+        android:label="Discovery"
         tools:layout="@layout/fragment_discovery" />
     <fragment
         android:id="@+id/magazineFragment"
         android:name="com.kanyideveloper.navigationdemo.MagazineFragment"
-        android:label="fragment_magazine"
+        android:label="My Magazines"
         tools:layout="@layout/fragment_magazine" />
     <fragment
         android:id="@+id/myDIYFragment"
         android:name="com.kanyideveloper.navigationdemo.MyDIYFragment"
-        android:label="fragment_my_d_i_y"
+        android:label="My DIY"
         tools:layout="@layout/fragment_my_d_i_y" />
     <fragment
         android:id="@+id/myFontsFragment"
         android:name="com.kanyideveloper.navigationdemo.MyFontsFragment"
-        android:label="fragment_my_fonts"
+        android:label="My Fonts"
         tools:layout="@layout/fragment_my_fonts" />
     <fragment
         android:id="@+id/myThemeFragment"
         android:name="com.kanyideveloper.navigationdemo.MyThemeFragment"
-        android:label="fragment_my_theme"
+        android:label="Theme"
         tools:layout="@layout/fragment_my_theme" />
     <fragment
         android:id="@+id/myVideoShowFragment"
         android:name="com.kanyideveloper.navigationdemo.MyVideoShowFragment"
-        android:label="fragment_my_video_show"
+        android:label="My Videoshow"
         tools:layout="@layout/fragment_my_video_show" />
     <fragment
         android:id="@+id/myWallpaperFragment"
@@ -48,7 +48,7 @@
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.kanyideveloper.navigationdemo.SettingsFragment"
-        android:label="fragment_settings"
+        android:label="Settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/shareFragment"
@@ -58,11 +58,11 @@
     <fragment
         android:id="@+id/themeFragment"
         android:name="com.kanyideveloper.navigationdemo.ThemeFragment"
-        android:label="fragment_theme"
+        android:label="Theme"
         tools:layout="@layout/fragment_theme" />
     <fragment
         android:id="@+id/wallpaperFragment"
         android:name="com.kanyideveloper.navigationdemo.WallpaperFragment"
-        android:label="fragment_wallpaper"
+        android:label="Wallpaper"
         tools:layout="@layout/fragment_wallpaper" />
 </navigation>
