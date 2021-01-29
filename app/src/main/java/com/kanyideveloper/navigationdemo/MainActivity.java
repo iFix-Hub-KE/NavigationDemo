@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //For Back button --top
     @Override
     public boolean onSupportNavigateUp() {
         return NavigationUI.navigateUp(navController,appBarConfiguration);
